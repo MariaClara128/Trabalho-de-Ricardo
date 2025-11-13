@@ -1,0 +1,162 @@
+.apresentacao {
+    padding: 80px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d0d0d;
+}
+
+.conteudo-apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.texto {
+    flex: 1;
+    min-width: 300px;
+}
+
+.texto h1 {
+    color: #00e6e6;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.texto h2 {
+    color: #ffffff;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.texto p {
+    color: #bfbfbf;
+    font-size: 18px;
+    max-width: 500px;
+    line-height: 1.6;
+}
+
+.texto .destaque {
+    color: #00e6e6;
+    text-shadow: 0 0 10px #00e6e6;
+}
+
+.imagem {
+    flex: 1;
+    text-align: right;
+    min-width: 400px;
+}
+
+.imagem img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #00e6e6;
+    transition: 0.3s;
+}
+
+.imagem img:hover {
+    transform: scale(1.03);
+}
+.estrutura {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #111;
+}
+
+.estrutura h2 {
+    color: #00e6e6;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.estrutura p {
+    color: #bbb;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.estrutura .galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.estrutura .galeria img {
+    width: 300px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.estrutura .galeria img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #00e6e6;
+}
+
+.modalidades {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.modalidades h2 {
+    color: #00e6e6;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    background: #111;
+    border: 2px solid #00e6e6;
+    border-radius: 10px;
+    padding: 25px;
+    width: 260px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px #00e6e6;
+}
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.card img:hover {
+    box-shadow: 0 0 15px #00e6e6;
+    transform: scale(1.03);
+   
+}
+
+.card h3 {
+    color: #00e6e6;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #ccc;
+    font-size: 16px;
+}
+
+.publico {
+    color: #4fd1ff;
+    font-weight: bold;
+}
+
+.particular {
+    color: #ffd700;
+    font-weight: bold;
+}

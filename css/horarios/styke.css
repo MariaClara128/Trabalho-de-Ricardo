@@ -1,0 +1,54 @@
+.container-horarios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px;
+    background-color: #000;
+    color: #fff;
+}
+
+.esporte-card {
+    background-color: #0d0d0d;
+    border: 2px solid #4fd1ff;
+    border-radius: 10px;
+    width: 320px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.esporte-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px #4fd1ff;
+}
+
+.esporte-card h2 {
+    color: #4fd1ff;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.esporte-card p {
+    margin: 6px 0;
+    font-size: 15px;
+}
+
+.categorias {
+    margin-top: 15px;
+}
+
+.categoria {
+    background-color: #111;
+    border: 1px solid #4fd1ff;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 8px;
+}
+
+.categoria h3 {
+    color: #4fd1ff;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
