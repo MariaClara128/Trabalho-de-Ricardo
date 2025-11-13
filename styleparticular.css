@@ -1,0 +1,132 @@
+/* ====== GERAL ====== */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #0d0d0d;
+    color: #fff;
+}
+
+/* ====== HEADER ====== */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: #0b0b0b;
+    box-shadow: 0 0 15px #00e6e6;
+}
+
+nav a {
+    color: #bfbfbf;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+    color: #00e6e6;
+    text-shadow: 0 0 10px #00e6e6;
+}
+
+/* ====== BOAS-VINDAS ====== */
+.boas-vindas {
+    text-align: center;
+    padding: 80px 10%;
+}
+
+.boas-vindas h1 {
+    font-size: 42px;
+}
+
+.destaque {
+    color: #00e6e6;
+    text-shadow: 0 0 10px #00e6e6;
+}
+
+/* ====== PAINEL ====== */
+.painel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px 10%;
+}
+
+.info-box {
+    background-color: #1a1a1a;
+    border-radius: 15px;
+    padding: 25px;
+    width: 320px;
+    box-shadow: 0 0 15px rgba(0, 230, 230, 0.2);
+    transition: 0.3s;
+}
+
+.info-box:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(0, 230, 230, 0.4);
+}
+
+.info-box h2 {
+    color: #00e6e6;
+    margin-bottom: 10px;
+}
+
+/* ====== PROGRESSO ====== */
+.progress-bar {
+    background: #333;
+    border-radius: 20px;
+    height: 12px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.progress {
+    background: #00e6e6;
+    height: 100%;
+    border-radius: 20px;
+}
+
+/* ====== ATALHOS ====== */
+.atalhos {
+    text-align: center;
+    padding: 60px 10%;
+}
+
+.atalhos h2 {
+    color: #00e6e6;
+    margin-bottom: 25px;
+}
+
+.atalhos-btns {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.btn {
+    background-color: #00e6e6;
+    color: #0d0d0d;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #00b3b3;
+    transform: translateY(-2px);
+}
+
+/* ====== FOOTER ====== */
+footer {
+    background-color: #0b0b0b;
+    text-align: center;
+    padding: 15px 0;
+    color: #bfbfbf;
+    font-size: 14px;
+    box-shadow: 0 -2px 10px rgba(0, 230, 230, 0.1);
+}
